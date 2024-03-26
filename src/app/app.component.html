@@ -1,10 +1,11 @@
 <header>
-	<nav class="nav">
+	<nav class="nav mixin-box">
 		<h1 class="logo">Words</h1>
 	</nav>
 </header>
 
-<section>
+<section class="mixin-box">
+	<app-word-form></app-word-form>
 	<app-word [words]="words"></app-word>
 </section>
 
