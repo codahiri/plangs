@@ -1,12 +1,9 @@
 <header>
 	<nav class="nav mixin-box">
-		<h1 class="logo">Words</h1>
+		<a [routerLink]="['/']">
+			<h1 class="logo">Words</h1>
+		</a>
 	</nav>
 </header>
-
-<section class="mixin-box">
-	<app-word-form></app-word-form>
-	<app-word [words]="words"></app-word>
-</section>
 
 <router-outlet />

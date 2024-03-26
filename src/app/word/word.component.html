@@ -1,17 +1,12 @@
-<div class="content-box">
-	<div
-		class="box"
-		*ngFor="let word of words"
-	>
-		<img
-			class="img"
-			[src]="word.img"
-			[alt]="word.word"
-		/>
-		<div class="footer">
-			<h3 class="word">{{ word.word }}</h3>
-			<p>{{ word.translation }}</p>
-			<p>{{ word.example }}</p>
-		</div>
+<div class="box">
+	<img
+		class="img"
+		[src]="word.img"
+		[alt]="word.word"
+	/>
+	<div class="footer">
+		<h3 class="word">{{ word.word }}</h3>
+		<p>{{ word.translation }}</p>
+		<p>{{ word.example }}</p>
 	</div>
 </div>

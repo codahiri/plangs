@@ -1,12 +1,5 @@
 import { Component, Input } from "@angular/core";
-
-export interface IWord {
-	id: number;
-	word: string;
-	translation: string;
-	example: string;
-	img: string;
-}
+import { IWord } from "../iword";
 
 @Component({
 	selector: "app-word",
@@ -15,5 +8,6 @@ export interface IWord {
 })
 export class WordComponent {
 	@Input()
-	words!: IWord[];
+	word!: IWord;
+	constructor() {}
 }
