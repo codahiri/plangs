@@ -3,7 +3,7 @@ import { IWord } from "./iword";
 
 @Injectable()
 export class WordService {
-	readonly baseUrl =
+	private baseUrl =
 		"https://yoobi.com/cdn/shop/products/3pkSpiralNotebook-Multicolor5copy_1800x1800.jpg";
 
 	words: IWord[] = [
