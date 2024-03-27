@@ -6,15 +6,14 @@ import {
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { WordComponent } from "./word/word.component";
-import { HomeComponent } from "./home/home.component";
-import { WordService } from "./word.service";
-import { DetailsComponent } from './details/details.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HomeComponent } from './home/home.component';
+import { BoxComponent } from './box/box.component';
 
 @NgModule({
-	declarations: [AppComponent, WordComponent, HomeComponent, DetailsComponent],
+	declarations: [AppComponent, NavbarComponent, HomeComponent, BoxComponent],
 	imports: [BrowserModule, AppRoutingModule],
-	providers: [provideClientHydration(), WordService],
+	providers: [provideClientHydration()],
 	bootstrap: [AppComponent],
 })
 export class AppModule {}

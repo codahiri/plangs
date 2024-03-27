@@ -1,17 +1,16 @@
-<section class="home mixin-box">
-	<div class="form-container">
+<main class="main-section__container">
+	<section class="form-container">
 		<input
 			type="text"
 			placeholder="Search..."
-			#input
 		/>
-		<button (click)="search(input.value)">Qidirish</button>
-	</div>
-	<main class="content-box">
-		<app-word
-			[routerLink]="['details', word.id]"
-			*ngFor="let word of filteredWords"
-			[word]="word"
-		></app-word>
-	</main>
-</section>
+		<button>Search</button>
+	</section>
+
+	<section class="boxes">
+		<app-box
+			*ngFor="let lang of langs"
+			[lang]="lang"
+		></app-box>
+	</section>
+</main>

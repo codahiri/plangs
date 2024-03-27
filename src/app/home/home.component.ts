@@ -1,7 +1,6 @@
 import { Component } from "@angular/core";
-import { Router } from "@angular/router";
-import { WordService } from "../word.service";
-import { IWord } from "../iword";
+import { PlangService } from "../plang.service";
+import { IPlang } from "../plang";
 
 @Component({
 	selector: "app-home",
@@ -9,14 +8,10 @@ import { IWord } from "../iword";
 	styleUrl: "./home.component.less",
 })
 export class HomeComponent {
-	filteredWords!: IWord[];
-
-	constructor(private wordService: WordService, private router: Router) {
-		this.filteredWords = this.wordService.getAllWords();
-	}
-	search(value: string) {
-		this.filteredWords = this.wordService
-			.getAllWords()
-			.filter((word) => word.word.toLowerCase().includes(value.toLowerCase()));
+	langs!: IPlang[];
+	constructor(private plangService: PlangService) {
+		this.plangService.getAllData().then((langs) => {
+			this.langs = langs;
+		});
 	}
 }
