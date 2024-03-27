@@ -1,12 +1,17 @@
-.home {
-	padding: 25px 0;
+.main-section__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+
 	.form-container {
-		margin-bottom: 15px;
+		margin: 20px 0;
 	}
-	.content-box {
-		display: grid;
-		grid-template-columns: auto auto auto auto;
-		gap: 25px 15px;
+	.boxes {
+		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
+		max-width: 80%;
 	}
 }

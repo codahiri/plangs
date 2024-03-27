@@ -1,0 +1,52 @@
+{
+	"langs": [
+		{
+			"id": 1,
+			"pLang": "JavaScript",
+			"desc": "Web development",
+			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png"
+		},
+		{
+			"id": 2,
+			"pLang": "TypeScript",
+			"desc": "Web development",
+			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
+		},
+		{
+			"id": 3,
+			"pLang": "C",
+			"desc": "Web development",
+			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png"
+		},
+		{
+			"id": 4,
+			"pLang": "C++",
+			"desc": "Web development",
+			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png"
+		},
+		{
+			"id": 5,
+			"pLang": "C#",
+			"desc": "Web development",
+			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png"
+		},
+		{
+			"id": 6,
+			"pLang": "Java",
+			"desc": "Web development",
+			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
+		},
+		{
+			"id": 7,
+			"pLang": "PHP",
+			"desc": "Web development",
+			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png"
+		},
+		{
+			"id": 8,
+			"pLang": "Ruby",
+			"desc": "Web development",
+			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png"
+		}
+	]
+}
