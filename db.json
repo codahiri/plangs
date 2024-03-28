@@ -3,49 +3,113 @@
 		{
 			"id": 1,
 			"pLang": "JavaScript",
-			"desc": "Web development",
+			"desc": "JavaScript is a lightweight interpreted programming language primarily used for web development. It runs in web browsers and allows developers to create interactive and dynamic web pages. It is widely used for client-side scripting and can also be used on the server side (e.g., with Node.js).",
+			"keyFeatures": [
+				{
+					"featOne": "Interpreted: No need for compilation; executed directly by browsers.",
+					"featTwo": "Event-Driven: Reacts to user actions and events.",
+					"featThree": "Dynamic Typing: Variables can change types during runtime.",
+					"featFour": "Versatile: Used for front-end and back-end development."
+				}
+			],
 			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png"
 		},
 		{
 			"id": 2,
 			"pLang": "TypeScript",
-			"desc": "Web development",
+			"desc": "TypeScript is a superset of JavaScript that adds optional static typing, classes, and interfaces. It enhances the development experience by enabling IDEs to catch common errors as you type. TypeScript compiles to plain JavaScript and is popular for large code bases.",
+			"keyFeatures": [
+				{
+					"featOne": "Static Typing: Provides type safety during development.",
+					"featTwo": "Classes and Interfaces: Supports object-oriented programming.",
+					"featThree": "Tooling Support: Richer IDE features for spotting errors.",
+					"featFour": "Compatibility with JavaScript: Existing JavaScript code can be gradually migrated to TypeScript."
+				}
+			],
 			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
 		},
 		{
 			"id": 3,
 			"pLang": "C",
-			"desc": "Web development",
+			"desc": "C is a low-level, procedural programming language. It is widely used for system-level programming, embedded systems, and developing operating systems. C provides direct memory manipulation and efficient performance.",
+			"keyFeatures": [
+				{
+					"featOne": "Efficiency: Close to hardware, minimal runtime overhead.",
+					"featTwo": "Portability: Compilers available for various platforms.",
+					"featThree": "Structured Programming: Supports functions and modular code.",
+					"featFour": "Pointers: Allows direct memory access."
+				}
+			],
 			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png"
 		},
 		{
 			"id": 4,
 			"pLang": "C++",
-			"desc": "Web development",
+			"desc": "C++ is an extension of C with additional features like classes, templates, and object-oriented programming. It is used for game development, system software, and high-performance applications.",
+			"keyFeatures": [
+				{
+					"featOne": "Object-Oriented: Supports classes, inheritance, and polymorphism.",
+					"featTwo": "Standard Template Library (STL): Provides data structures and algorithms.",
+					"featThree": "Performance: Efficient and close to C.",
+					"featFour": "Multi-Paradigm: Combines procedural and object-oriented programming."
+				}
+			],
 			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png"
 		},
 		{
 			"id": 5,
 			"pLang": "C#",
-			"desc": "Web development",
+			"desc": " C# (pronounced “C sharp”) is a modern, statically typed language developed by Microsoft. It is commonly used for Windows applications, game development (Unity), and web services (ASP.NET).",
+			"keyFeatures": [
+				{
+					"featOne": "Managed Code: Runs in the .NET Framework or .NET Core.",
+					"featTwo": "Object-Oriented: Supports classes, interfaces, and inheritance.",
+					"featThree": "Garbage Collection: Automatic memory management.",
+					"featFour": "LINQ (Language-Integrated Query): Simplifies data querying."
+				}
+			],
 			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png"
 		},
 		{
 			"id": 6,
 			"pLang": "Java",
-			"desc": "Web development",
+			"desc": "Java is a versatile, object-oriented programming language. It is known for its “write once, run anywhere” capability. Java is widely used for Android app development, enterprise applications, and web services.",
+			"keyFeatures": [
+				{
+					"featOne": "Platform Independence: Compiled to bytecode, runs on the Java Virtual Machine (JVM).",
+					"featTwo": "Strongly Typed: Type-safe and robust.",
+					"featThree": "Rich Standard Library: Includes APIs for I/O, networking, and more.",
+					"featFour": "Multithreading: Supports concurrent programming."
+				}
+			],
 			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
 		},
 		{
 			"id": 7,
 			"pLang": "PHP",
-			"desc": "Web development",
+			"desc": "PHP is a server-side scripting language designed for web development. It generates dynamic web pages and interacts with databases. PHP is commonly used in conjunction with HTML.",
+			"keyFeatures": [
+				{
+					"featOne": "Web Development: Creates dynamic content on web servers.",
+					"featTwo": "Embedded in HTML: PHP code can be embedded within HTML tags.",
+					"featThree": "Database Connectivity: Supports MySQL, PostgreSQL, and other databases.",
+					"featFour": "Open Source: Widely adopted for web applications."
+				}
+			],
 			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png"
 		},
 		{
 			"id": 8,
 			"pLang": "Ruby",
-			"desc": "Web development",
+			"desc": "Ruby is a dynamic, object-oriented scripting language. It emphasizes simplicity and productivity. Ruby is popular for web development (Ruby on Rails), automation, and scripting.",
+			"keyFeatures": [
+				{
+					"featOne": "Elegant Syntax: Readable and expressive.",
+					"featTwo": "Dynamic Typing: Variables can change types during runtime.",
+					"featThree": "Metaprogramming: Allows modifying code at runtime.",
+					"featFour": "RubyGems: Package manager for libraries and frameworks."
+				}
+			],
 			"img": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png"
 		}
 	]

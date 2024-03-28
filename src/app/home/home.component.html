@@ -3,12 +3,14 @@
 		<input
 			type="text"
 			placeholder="Search..."
+			#input
 		/>
-		<button>Search</button>
+		<button (click)="search(input.value)">Search</button>
 	</section>
 
 	<section class="boxes">
 		<app-box
+			[routerLink]="['details', lang.id]"
 			*ngFor="let lang of langs"
 			[lang]="lang"
 		></app-box>
