@@ -6,7 +6,9 @@
 		<p>
 			{{ lang?.desc }}
 		</p>
-		<ul *ngFor="let feature of lang?.keyFeatures[0] | keyvalue"></ul>
+		<ul *ngFor="let feat of lang?.keyFeatures">
+			<li>{{ feat }}</li>
+		</ul>
 	</section>
 
 	<section class="logo-section">
