@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Router } from "@angular/router";
 import { PlangService } from "../plang.service";
 import { IPlang } from "../plang";
 
@@ -9,9 +10,18 @@ import { IPlang } from "../plang";
 })
 export class HomeComponent {
 	langs!: IPlang[];
-	constructor(private plangService: PlangService) {
+
+	constructor(private plangService: PlangService, private router: Router) {
 		this.plangService.getAllData().then((langs) => {
 			this.langs = langs;
+		});
+	}
+
+	search(value: string) {
+		this.plangService.getAllData().then((langs) => {
+			this.langs = langs.filter((word) =>
+				word.pLang.toLowerCase().includes(value.toLowerCase())
+			);
 		});
 	}
 }

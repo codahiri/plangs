@@ -13,4 +13,9 @@ export class PlangService {
 		const data = await fetch(this.url);
 		return (await data.json()) ?? [];
 	}
+
+	async getDataById(id: number): Promise<IPlang | undefined> {
+		const data = await fetch(`${this.url}/${id}`);
+		return (await data.json()) ?? [];
+	}
 }

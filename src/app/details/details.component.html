@@ -1,0 +1,18 @@
+<main class="details-content">
+	<section class="details-section">
+		<h1>
+			{{ lang?.pLang }}
+		</h1>
+		<p>
+			{{ lang?.desc }}
+		</p>
+		<ul *ngFor="let feature of lang?.keyFeatures[0] | keyvalue"></ul>
+	</section>
+
+	<section class="logo-section">
+		<img
+			[src]="lang?.img"
+			[alt]="lang?.pLang"
+		/>
+	</section>
+</main>
